@@ -1,0 +1,1502 @@
+[
+  {
+    "id": "prod-001",
+    "name": "Air Max 270",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike Air Max 270. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-001-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-001-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-001-var-3",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-002",
+    "name": "Pegasus 40",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike Pegasus 40. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-002-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/shoe-1.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-002-var-2",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/shoe-1.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-002-var-3",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/shoe-1.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-003",
+    "name": "Zoom Vomero 5",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike Zoom Vomero 5. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-003-var-1",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-003-var-2",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-003-var-3",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-004",
+    "name": "Dunk Low Retro",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike Dunk Low Retro. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-004-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-004-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-004-var-3",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-005",
+    "name": "Air Force 1 '07",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike Air Force 1 '07. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-005-var-1",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-005-var-2",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-005-var-3",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-006",
+    "name": "Blazer Mid '77",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike Blazer Mid '77. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-006-var-1",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-006-var-2",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-006-var-3",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-007",
+    "name": "Metcon 9",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike Metcon 9. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-007-var-1",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-007-var-2",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-007-var-3",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-008",
+    "name": "Invincible 3",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike Invincible 3. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-008-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-008-var-2",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-008-var-3",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-009",
+    "name": "Vaporfly 3",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike Vaporfly 3. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-009-var-1",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-009-var-2",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-009-var-3",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-010",
+    "name": "React Infinity 3",
+    "brand": "Nike",
+    "description": "Experience ultimate comfort and style with the Nike React Infinity 3. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-010-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-010-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-010-var-3",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-011",
+    "name": "Ultraboost Light",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas Ultraboost Light. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-011-var-1",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-011-var-2",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-011-var-3",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-012",
+    "name": "Samba Classic",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas Samba Classic. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-012-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-012-var-2",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-012-var-3",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-013",
+    "name": "Stan Smith",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas Stan Smith. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-013-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-013-var-2",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-013-var-3",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-014",
+    "name": "NMD_R1 V3",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas NMD_R1 V3. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-014-var-1",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-014-var-2",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-014-var-3",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-015",
+    "name": "Superstar",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas Superstar. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-015-var-1",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-015-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-015-var-3",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-016",
+    "name": "Gazelle OG",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas Gazelle OG. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-016-var-1",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-016-var-2",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-016-var-3",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-017",
+    "name": "Adizero Adios Pro 3",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas Adizero Adios Pro 3. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-017-var-1",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-017-var-2",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-017-var-3",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-018",
+    "name": "Forum Low",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas Forum Low. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-018-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-018-var-2",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-018-var-3",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-019",
+    "name": "Terrex Free Hiker 2",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas Terrex Free Hiker 2. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-019-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-019-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-019-var-3",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-020",
+    "name": "Response Runner",
+    "brand": "Adidas",
+    "description": "Experience ultimate comfort and style with the Adidas Response Runner. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-020-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-020-var-2",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-020-var-3",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-021",
+    "name": "Clyde OG",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma Clyde OG. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-021-var-1",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-021-var-2",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-021-var-3",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-022",
+    "name": "Suede Classic",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma Suede Classic. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-022-var-1",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-022-var-2",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-022-var-3",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-023",
+    "name": "RS-X Efekt",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma RS-X Efekt. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-023-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-023-var-2",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-023-var-3",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-024",
+    "name": "Velocity Nitro 3",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma Velocity Nitro 3. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-024-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-024-var-2",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-024-var-3",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-025",
+    "name": "Palermo",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma Palermo. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-025-var-1",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-025-var-2",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-025-var-3",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-026",
+    "name": "Rider FV",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma Rider FV. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-026-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-026-var-2",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-026-var-3",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-027",
+    "name": "Slipstream Retro",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma Slipstream Retro. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-027-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-027-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-027-var-3",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-028",
+    "name": "Deviate Nitro 2",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma Deviate Nitro 2. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-028-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-028-var-2",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-028-var-3",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-029",
+    "name": "CA Pro Classic",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma CA Pro Classic. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-029-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-029-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-029-var-3",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-030",
+    "name": "Future Rider Play",
+    "brand": "Puma",
+    "description": "Experience ultimate comfort and style with the Puma Future Rider Play. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-030-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-030-var-2",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-030-var-3",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-031",
+    "name": "Club C 85",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok Club C 85. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-031-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-031-var-2",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-031-var-3",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-032",
+    "name": "Classic Leather",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok Classic Leather. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-032-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-032-var-2",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-032-var-3",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-033",
+    "name": "Nano X4 Adventure",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok Nano X4 Adventure. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-033-var-1",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-033-var-2",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-033-var-3",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-034",
+    "name": "Zig Dynamica 4",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok Zig Dynamica 4. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-034-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-034-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-034-var-3",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-035",
+    "name": "Floatride Energy 5",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok Floatride Energy 5. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-035-var-1",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-035-var-2",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-035-var-3",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-036",
+    "name": "Question Mid",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok Question Mid. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-036-var-1",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-036-var-2",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-036-var-3",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-037",
+    "name": "Instapump Fury 95",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok Instapump Fury 95. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-037-var-1",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-037-var-2",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-037-var-3",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-038",
+    "name": "Workout Plus",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok Workout Plus. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-038-var-1",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-038-var-2",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-038-var-3",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-039",
+    "name": "Club C Double",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok Club C Double. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-039-var-1",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-039-var-2",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-039-var-3",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-040",
+    "name": "BB 4000 II",
+    "brand": "Reebok",
+    "description": "Experience ultimate comfort and style with the Reebok BB 4000 II. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-040-var-1",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-040-var-2",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-040-var-3",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-041",
+    "name": "Curry Flow 11",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour Curry Flow 11. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-041-var-1",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-041-var-2",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-041-var-3",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-042",
+    "name": "HOVR Phantom 3 SE",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour HOVR Phantom 3 SE. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-042-var-1",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-042-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-042-var-3",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-043",
+    "name": "Charged Assert 10",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour Charged Assert 10. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-043-var-1",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-043-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-043-var-3",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-044",
+    "name": "UA Apparition",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour UA Apparition. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-044-var-1",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-044-var-2",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-044-var-3",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-045",
+    "name": "Infinite Pro",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour Infinite Pro. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-045-var-1",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1515955656352-a1fa3ffcd111?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-045-var-2",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-045-var-3",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-046",
+    "name": "Flow Velocity Wind 2",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour Flow Velocity Wind 2. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-046-var-1",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1575537302964-96cd47c06b1b?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-046-var-2",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-046-var-3",
+        "color": "Pulse Orange",
+        "colorHex": "#F97316",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-047",
+    "name": "Project Rock 6",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour Project Rock 6. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-047-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-047-var-2",
+        "color": "Cyber Purple",
+        "colorHex": "#8B5CF6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-047-var-3",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-048",
+    "name": "Charged Rogue 3",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour Charged Rogue 3. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-048-var-1",
+        "color": "Solar Yellow",
+        "colorHex": "#EAB308",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-048-var-2",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-048-var-3",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-049",
+    "name": "HOVR Sonic 6",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour HOVR Sonic 6. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-049-var-1",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-049-var-2",
+        "color": "Scarlet Red",
+        "colorHex": "#DC2626",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-049-var-3",
+        "color": "Core Black",
+        "colorHex": "#111827",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  },
+  {
+    "id": "prod-050",
+    "name": "Micro G Kilchis",
+    "brand": "Under Armour",
+    "description": "Experience ultimate comfort and style with the Under Armour Micro G Kilchis. Engineered for performance and everyday wearability, featuring a lightweight responsive midsole, breathable upper design, and modern premium aesthetics fit for any style.",
+    "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80",
+    "variants": [
+      {
+        "id": "prod-050-var-1",
+        "color": "Electric Blue",
+        "colorHex": "#2563EB",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-050-var-2",
+        "color": "Cloud White",
+        "colorHex": "#F3F4F6",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+      },
+      {
+        "id": "prod-050-var-3",
+        "color": "Neon Lime",
+        "colorHex": "#84CC16",
+        "modelUrl": "/models/sneaker-default.glb",
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+      }
+    ]
+  }
+]
