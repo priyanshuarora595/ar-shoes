@@ -1,5 +1,5 @@
 import React from 'react';
-import { Camera, Sparkles, Orbit } from 'lucide-react';
+import { Sparkles, Orbit } from 'lucide-react';
 import { ProductService } from '../services/ProductService';
 import ProductGrid from '../components/ProductGrid';
 
@@ -82,7 +82,7 @@ export default async function Home() {
             © 2026 Aura Systems. All rights reserved. AR Shoe Try-On Proof of Concept.
           </p>
           <p className="text-xs text-zinc-500 mt-2 sm:mt-0">
-            Made with MediaPipe, Next.js, and React Three Fiber.
+            Made with DeepAR and Next.js.
           </p>
         </div>
       </footer>

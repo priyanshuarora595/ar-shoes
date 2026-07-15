@@ -11,21 +11,24 @@
         "color": "Core Black",
         "colorHex": "#111827",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/nike-air-max.deepar"
       },
       {
         "id": "prod-001-var-2",
         "color": "Cloud White",
         "colorHex": "#F3F4F6",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/nike-airforce-1-lv8.deepar"
       },
       {
         "id": "prod-001-var-3",
         "color": "Pulse Orange",
         "colorHex": "#F97316",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/nike-airforce1.deepar"
       }
     ]
   },
@@ -41,21 +44,24 @@
         "color": "Core Black",
         "colorHex": "#111827",
         "modelUrl": "/models/shoe-1.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/new-balance-574.deepar"
       },
       {
         "id": "prod-002-var-2",
         "color": "Scarlet Red",
         "colorHex": "#DC2626",
         "modelUrl": "/models/shoe-1.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/on-run-cloudrock.deepar"
       },
       {
         "id": "prod-002-var-3",
         "color": "Cyber Purple",
         "colorHex": "#8B5CF6",
         "modelUrl": "/models/shoe-1.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/on-run-cloudmonster.deepar"
       }
     ]
   },
@@ -71,21 +77,24 @@
         "color": "Cloud White",
         "colorHex": "#F3F4F6",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1608231387042-66d1773070a5?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/nike-dunk.deepar"
       },
       {
         "id": "prod-003-var-2",
         "color": "Scarlet Red",
         "colorHex": "#DC2626",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/puma-suede-classic.deepar"
       },
       {
         "id": "prod-003-var-3",
         "color": "Electric Blue",
         "colorHex": "#2563EB",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/puma-voltaire.deepar"
       }
     ]
   },
@@ -101,21 +110,24 @@
         "color": "Electric Blue",
         "colorHex": "#2563EB",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1539185441755-769473a23570?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/shoe-2.deepar"
       },
       {
         "id": "prod-004-var-2",
         "color": "Cloud White",
         "colorHex": "#F3F4F6",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/shoe-2.deepar"
       },
       {
         "id": "prod-004-var-3",
         "color": "Pulse Orange",
         "colorHex": "#F97316",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/shoe-2.deepar"
       }
     ]
   },
@@ -131,21 +143,24 @@
         "color": "Cloud White",
         "colorHex": "#F3F4F6",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1491553895911-0055eca6402d?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/nike-airforce-1-lv8.deepar"
       },
       {
         "id": "prod-005-var-2",
         "color": "Core Black",
         "colorHex": "#111827",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/nike-airforce-1-lv8.deepar"
       },
       {
         "id": "prod-005-var-3",
         "color": "Pulse Orange",
         "colorHex": "#F97316",
         "modelUrl": "/models/sneaker-default.glb",
-        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80"
+        "thumbnail": "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?auto=format&fit=crop&w=400&h=400&q=80",
+        "deeparEffectUrl": "/deepar-effects/nike-airforce-1-lv8.deepar"
       }
     ]
   },

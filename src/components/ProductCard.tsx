@@ -69,13 +69,16 @@ export default function ProductCard({ product }: ProductCardProps) {
           Details
           <ArrowRight className="h-3.5 w-3.5" />
         </Link>
-        <Link
-          href={`/try-on/${product.id}?variant=${activeVariant.id}`}
+        {/* Plain <a>, not next/link: DeepAR's WASM/tfjs registries don't
+            survive a shutdown+reinitialize cycle within the same JS heap,
+            so entering this page must always be a full browser reload. */}
+        <a
+          href={`/try-on-deepar/${product.id}?variant=${activeVariant.id}`}
           className="flex items-center justify-center gap-1.5 rounded-xl bg-orange-600 py-2.5 text-xs font-semibold text-white shadow-lg shadow-orange-950/20 transition-all duration-200 hover:bg-orange-500 hover:shadow-orange-500/25 active:scale-95"
         >
           <Camera className="h-3.5 w-3.5" />
           Try On
-        </Link>
+        </a>
       </div>
     </div>
   );

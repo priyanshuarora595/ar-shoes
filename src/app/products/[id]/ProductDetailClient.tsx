@@ -104,14 +104,19 @@ export default function ProductDetailClient({ product }: ProductDetailClientProp
 
           {/* Action Row */}
           <div className="mt-10 border-t border-zinc-900 pt-8 flex flex-col sm:flex-row items-stretch sm:items-center gap-4">
-            <Link
-              href={`/try-on/${product.id}?variant=${selectedVariant.id}`}
+            {/* Plain <a>, not next/link: DeepAR's WASM/tfjs registries don't
+                survive a shutdown+reinitialize cycle within the same JS
+                heap, so entering this page must always be a full browser
+                reload rather than a client-side SPA transition (which would
+                reuse the heap from any previously-visited try-on-deepar page). */}
+            <a
+              href={`/try-on-deepar/${product.id}?variant=${selectedVariant.id}`}
               className="flex-1 flex items-center justify-center gap-2 rounded-2xl bg-orange-600 py-4 text-sm font-bold text-white shadow-xl shadow-orange-950/10 transition-all duration-200 hover:bg-orange-500 hover:shadow-orange-500/25 active:scale-98"
             >
               <Camera className="h-4.5 w-4.5" />
               Start AR Try-On
               <ArrowRight className="h-4 w-4" />
-            </Link>
+            </a>
           </div>
 
           {/* Badges */}

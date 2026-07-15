@@ -4,6 +4,9 @@ export interface ProductVariant {
   colorHex?: string;
   modelUrl: string;
   thumbnail: string;
+  // DeepAR Studio-exported effect for this variant. Optional: only variants
+  // that have actually been authored/converted in Studio will have one.
+  deeparEffectUrl?: string;
 }
 
 export interface Product {
@@ -13,19 +16,4 @@ export interface Product {
   description: string;
   thumbnail: string;
   variants: ProductVariant[];
-}
-
-export interface FootPose {
-  position: {
-    x: number;
-    y: number;
-    z: number;
-  };
-  rotation: {
-    x: number;
-    y: number;
-    z: number;
-  };
-  scale: number;
-  detected: boolean;
 }
