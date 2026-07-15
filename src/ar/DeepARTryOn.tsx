@@ -55,32 +55,50 @@ export default function DeepARTryOn({ effectUrl, onFeetTracked }: DeepARTryOnPro
         console.log('[browser] DeepARTryOn: initialize() starting...');
         console.time('[browser] DeepARTryOn: initialize()');
         const deepar = await import('deepar');
-        const deepAR = await deepar.initialize({
-          licenseKey,
-          previewElement: containerRef.current,
-          // Self-hosted from public/deepar-sdk (copied from node_modules/deepar)
-          // instead of DeepAR's default jsdelivr CDN — avoids multi-MB
-          // WASM/model downloads over whatever connection the test device has.
-          rootPath: '/deepar-sdk/',
-          additionalOptions: {
-            cameraConfig: { facingMode: 'environment' },
-            // Docs/reference implementations confirm every footTrackingConfig
-            // field is required for shoe-tryon effects — the implicit
-            // rootPath-based lazy load (what we relied on before) silently
-            // hangs instead of resolving. `hint: 'footInit'` forces eager
-            // loading instead of waiting for switchEffect to trigger it.
-            footTrackingConfig: {
-              poseEstimationWasmPath: '/deepar-sdk/wasm/libxzimgPoseEstimation.wasm',
-              detectorPath: '/deepar-sdk/models/foot/foot-detector-96x96x6-q8.bin',
-              trackerPath: '/deepar-sdk/models/foot/foot-keyps-superfast-23JUN2024.bin',
-              objPath: '/deepar-sdk/models/foot/foot-right-200.obj',
-              tfjsBackendWasmPath: '/deepar-sdk/wasm/tfjs-backend-wasm.wasm',
-              tfjsBackendWasmSimdPath: '/deepar-sdk/wasm/tfjs-backend-wasm-simd.wasm',
-              tfjsBackendWasmThreadedSimdPath: '/deepar-sdk/wasm/tfjs-backend-wasm-threaded-simd.wasm',
+
+        // DeepAR's SDK hardcodes a console.warn() any time rootPath differs
+        // from its default CDN path — there's no SDK option to suppress it,
+        // and we deliberately self-host (see rootPath below), so it fires on
+        // every init. Filter out just this one known-expected message.
+        const originalWarn = console.warn;
+        console.warn = (...args: unknown[]) => {
+          if (typeof args[0] === 'string' && args[0].includes('Using non-default root path')) {
+            return;
+          }
+          originalWarn(...args);
+        };
+
+        let deepAR;
+        try {
+          deepAR = await deepar.initialize({
+            licenseKey,
+            previewElement: containerRef.current,
+            // Self-hosted from public/deepar-sdk (copied from node_modules/deepar)
+            // instead of DeepAR's default jsdelivr CDN — avoids multi-MB
+            // WASM/model downloads over whatever connection the test device has.
+            rootPath: '/deepar-sdk/',
+            additionalOptions: {
+              cameraConfig: { facingMode: 'environment' },
+              // Docs/reference implementations confirm every footTrackingConfig
+              // field is required for shoe-tryon effects — the implicit
+              // rootPath-based lazy load (what we relied on before) silently
+              // hangs instead of resolving. `hint: 'footInit'` forces eager
+              // loading instead of waiting for switchEffect to trigger it.
+              footTrackingConfig: {
+                poseEstimationWasmPath: '/deepar-sdk/wasm/libxzimgPoseEstimation.wasm',
+                detectorPath: '/deepar-sdk/models/foot/foot-detector-96x96x6-q8.bin',
+                trackerPath: '/deepar-sdk/models/foot/foot-keyps-superfast-23JUN2024.bin',
+                objPath: '/deepar-sdk/models/foot/foot-right-200.obj',
+                tfjsBackendWasmPath: '/deepar-sdk/wasm/tfjs-backend-wasm.wasm',
+                tfjsBackendWasmSimdPath: '/deepar-sdk/wasm/tfjs-backend-wasm-simd.wasm',
+                tfjsBackendWasmThreadedSimdPath: '/deepar-sdk/wasm/tfjs-backend-wasm-threaded-simd.wasm',
+              },
+              hint: 'footInit',
             },
-            hint: 'footInit',
-          },
-        });
+          });
+        } finally {
+          console.warn = originalWarn;
+        }
         console.timeEnd('[browser] DeepARTryOn: initialize()');
 
         if (cancelled) {
