@@ -2,7 +2,6 @@ export interface ProductVariant {
   id: string;
   color: string;
   colorHex?: string;
-  modelUrl: string;
   thumbnail: string;
   // DeepAR Studio-exported effect for this variant. Optional: only variants
   // that have actually been authored/converted in Studio will have one.
