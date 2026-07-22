@@ -22,12 +22,13 @@ function normalizeCheckbox(formData: FormData, field: string) {
 // A <input type="file"> the user didn't touch still submits a zero-byte
 // File - unlike a missing field, Django's FileField sees this and rejects
 // it ("submitted file is empty") instead of treating it as "unchanged".
-// Next.js's Server Action encoding also renders the empty file's name as
-// the literal string "undefined" rather than "", so check for both.
+// The placeholder name Next.js gives that empty file varies by runtime
+// (seen both "" and the literal string "undefined"), so don't rely on the
+// name at all - a real upload is never 0 bytes, so size alone is enough.
 function stripEmptyFiles(formData: FormData, fields: string[]) {
   for (const field of fields) {
     const value = formData.get(field);
-    if (value instanceof File && value.size === 0 && (value.name === '' || value.name === 'undefined')) {
+    if (value instanceof File && value.size === 0) {
       formData.delete(field);
     }
   }

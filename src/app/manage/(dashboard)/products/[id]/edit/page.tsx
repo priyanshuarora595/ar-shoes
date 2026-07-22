@@ -1,4 +1,6 @@
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
+import { ArrowLeft } from 'lucide-react';
 import { managerFetch, getCurrentManager } from '@/lib/managerApi';
 import { ManagerProduct } from '@/types/managerProduct';
 import ProductForm from '../../ProductForm';
@@ -31,6 +33,14 @@ export default async function EditProductPage({ params }: PageProps) {
 
   return (
     <div>
+      <Link
+        href="/manage/products"
+        className="mb-4 inline-flex items-center gap-1.5 text-sm text-zinc-500 hover:text-zinc-300 transition-colors"
+      >
+        <ArrowLeft className="h-3.5 w-3.5" />
+        Back to Products
+      </Link>
+
       <div className="flex items-center justify-between mb-6">
         <h1 className="font-outfit text-xl font-semibold text-white">Edit Product</h1>
         {isManager && <DeleteProductButton productId={id} productName={product.name} />}
