@@ -2,16 +2,11 @@ import { Product } from '../types/product';
 
 const API_BASE_URL = process.env.API_BASE_URL || 'http://localhost:8000';
 
-interface PaginatedResponse<T> {
-  count: number;
-  next: string | null;
-  previous: string | null;
-  results: T[];
-}
-
 export class ProductService {
   /**
-   * Fetches all products from the catalog API.
+   * Fetches the full product catalog. Not paginated server-side -
+   * the catalog is small (~50 products at MVP scale) and the frontend
+   * paginates client-side after its own search/brand filtering.
    */
   static async getProducts(): Promise<Product[]> {
     const res = await fetch(`${API_BASE_URL}/api/products/`, {
@@ -24,8 +19,7 @@ export class ProductService {
       throw new Error(`Failed to load products (${res.status})`);
     }
 
-    const data: PaginatedResponse<Product> = await res.json();
-    return data.results;
+    return res.json();
   }
 
   /**

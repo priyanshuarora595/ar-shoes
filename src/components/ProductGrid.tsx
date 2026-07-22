@@ -1,9 +1,11 @@
 'use client';
 
-import React, { useState, useMemo } from 'react';
-import { Search, SlidersHorizontal, RefreshCw } from 'lucide-react';
+import React, { useState, useMemo, useEffect } from 'react';
+import { Search, SlidersHorizontal, RefreshCw, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Product } from '../types/product';
 import ProductCard from './ProductCard';
+
+const PAGE_SIZE = 12;
 
 interface ProductGridProps {
   products: Product[];
@@ -12,6 +14,7 @@ interface ProductGridProps {
 export default function ProductGrid({ products }: ProductGridProps) {
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedBrand, setSelectedBrand] = useState('All');
+  const [page, setPage] = useState(1);
 
   // Extract all unique brands
   const brands = useMemo(() => {
@@ -34,9 +37,22 @@ export default function ProductGrid({ products }: ProductGridProps) {
     });
   }, [products, searchQuery, selectedBrand]);
 
+  const totalPages = Math.max(1, Math.ceil(filteredProducts.length / PAGE_SIZE));
+
+  // Search/filter changes should always land back on page 1.
+  useEffect(() => {
+    setPage(1);
+  }, [searchQuery, selectedBrand]);
+
+  const paginatedProducts = useMemo(() => {
+    const start = (page - 1) * PAGE_SIZE;
+    return filteredProducts.slice(start, start + PAGE_SIZE);
+  }, [filteredProducts, page]);
+
   const handleReset = () => {
     setSearchQuery('');
     setSelectedBrand('All');
+    setPage(1);
   };
 
   return (
@@ -79,11 +95,39 @@ export default function ProductGrid({ products }: ProductGridProps) {
 
       {/* Grid Results */}
       {filteredProducts.length > 0 ? (
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-          {filteredProducts.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
+        <>
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+            {paginatedProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
+          </div>
+
+          {totalPages > 1 && (
+            <div className="mt-10 flex items-center justify-center gap-4">
+              <button
+                onClick={() => setPage((p) => Math.max(1, p - 1))}
+                disabled={page === 1}
+                className="flex h-9 w-9 items-center justify-center rounded-xl border border-zinc-800 bg-zinc-900/40 text-zinc-400 transition-colors hover:text-white disabled:cursor-not-allowed disabled:opacity-40"
+                aria-label="Previous page"
+              >
+                <ChevronLeft className="h-4 w-4" />
+              </button>
+
+              <span className="text-xs font-semibold uppercase tracking-wider text-zinc-500">
+                Page {page} of {totalPages}
+              </span>
+
+              <button
+                onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+                disabled={page === totalPages}
+                className="flex h-9 w-9 items-center justify-center rounded-xl border border-zinc-800 bg-zinc-900/40 text-zinc-400 transition-colors hover:text-white disabled:cursor-not-allowed disabled:opacity-40"
+                aria-label="Next page"
+              >
+                <ChevronRight className="h-4 w-4" />
+              </button>
+            </div>
+          )}
+        </>
       ) : (
         <div className="flex flex-col items-center justify-center rounded-2xl border border-dashed border-zinc-800 bg-zinc-950/20 py-20 text-center">
           <p className="text-base text-zinc-400">No products match your current search criteria.</p>
