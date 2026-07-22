@@ -1,7 +1,8 @@
 'use client';
 
 import { useActionState, useState } from 'react';
-import { Eye, EyeOff } from 'lucide-react';
+import Link from 'next/link';
+import { ArrowLeft, Eye, EyeOff } from 'lucide-react';
 import { loginAction, ActionState } from '../actions';
 
 const initialState: ActionState = { error: null };
@@ -13,6 +14,14 @@ export default function ManagerLoginPage() {
   return (
     <div className="min-h-screen bg-[#0A0A0A] flex items-center justify-center px-4">
       <div className="w-full max-w-sm">
+        <Link
+          href="/"
+          className="mb-6 inline-flex items-center gap-1.5 text-sm text-zinc-500 hover:text-zinc-300 transition-colors"
+        >
+          <ArrowLeft className="h-3.5 w-3.5" />
+          Back to website
+        </Link>
+
         <h1 className="font-outfit text-xl font-semibold text-white mb-1">Manager Login</h1>
         <p className="text-sm text-zinc-500 mb-8">Sign in to manage the product catalog.</p>
 
