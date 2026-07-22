@@ -82,7 +82,10 @@ export default async function Home() {
             © 2026 Aura Systems. All rights reserved. AR Shoe Try-On Proof of Concept.
           </p>
           <p className="text-xs text-zinc-500 mt-2 sm:mt-0">
-            Made with DeepAR and Next.js.
+            Made with DeepAR and Next.js. &middot;{' '}
+            <a href="/manage/login" className="hover:text-zinc-300 transition-colors">
+              Manager Login
+            </a>
           </p>
         </div>
       </footer>

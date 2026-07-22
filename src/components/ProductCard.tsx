@@ -12,6 +12,12 @@ interface ProductCardProps {
 export default function ProductCard({ product }: ProductCardProps) {
   const [activeVariant, setActiveVariant] = useState(product.variants[0]);
 
+  // The public API excludes products with no active variant, but stay
+  // defensive rather than crash if one ever slips through.
+  if (!activeVariant) {
+    return null;
+  }
+
   return (
     <div className="group relative flex flex-col justify-between overflow-hidden rounded-2xl border border-zinc-800/80 bg-zinc-950/40 p-5 backdrop-blur-md transition-all duration-300 hover:border-orange-500/30 hover:shadow-[0_0_30px_rgba(249,115,22,0.1)]">
       {/* Glow Effect Backdrop */}
