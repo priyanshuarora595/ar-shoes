@@ -1,7 +1,7 @@
 import Link from 'next/link';
-import { ArrowLeft } from 'lucide-react';
 import { getCurrentManager } from '@/lib/managerApi';
 import LogoutButton from '../LogoutButton';
+import ViewSiteButton from '../ViewSiteButton';
 
 export default async function ManagerDashboardLayout({ children }: { children: React.ReactNode }) {
   const manager = await getCurrentManager();
@@ -21,13 +21,7 @@ export default async function ManagerDashboardLayout({ children }: { children: R
             </nav>
           </div>
           <div className="flex items-center gap-4">
-            <a
-              href="/"
-              className="hidden sm:inline-flex items-center gap-1.5 text-sm text-zinc-400 hover:text-white transition-colors"
-            >
-              <ArrowLeft className="h-3.5 w-3.5" />
-              View Site
-            </a>
+            <ViewSiteButton />
             {manager && (
               <span className="text-xs text-zinc-500">
                 {manager.username} &middot; {manager.isManager ? 'Manager' : 'Content Uploader'}

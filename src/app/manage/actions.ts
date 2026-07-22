@@ -76,6 +76,15 @@ export async function logoutAction() {
   redirect('/manage/login');
 }
 
+// "View Site" clears the session first - leaving a manager session open on
+// the public storefront (e.g. a shared/kiosk machine) would let anyone who
+// picks up the browser navigate back into the manager area.
+export async function logoutAndViewSiteAction() {
+  const cookieStore = await cookies();
+  cookieStore.delete(MANAGER_TOKEN_COOKIE);
+  redirect('/');
+}
+
 export async function createProductAction(_prevState: ActionState, formData: FormData): Promise<ActionState> {
   normalizeCheckbox(formData, 'is_active');
 
